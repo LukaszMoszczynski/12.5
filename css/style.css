@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Risque");
+body {
+  /*background-color: #55ACEE;*/
+  text-align: center;
+  color: #FFF;
+  margin: 0;
+  background: linear-gradient(#55ACEE, #35FFA6);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+main header {
+  margin-top: 50px;
+}
+
+main header h1 {
+  font-size: 50px;
+  font-family: 'Risque', cursive;
+}
+
+main .box .quote {
+  font-size: 40px;
+  font-style: italic;
+  font-family: 'Indie Flower', cursive;
+}
+
+main .box .author {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+}
+
+main .tweet-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main .tweet-buttons button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  text-align: center;
+  color: #FFF;
+  border: 1px solid #FFF;
+  height: 100px;
+  width: 500px;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  transition: 1s;
+}
+
+main .tweet-buttons button:hover {
+  font-size: 40px;
+  border: 10px solid Transparent;
+  transition: 1s;
+  border-radius: 50px;
+}
+
+main .tweet-buttons p {
+  height: 100px;
+  width: 500px;
+  text-align: center;
+  border: 1px solid #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  font-family: 'Indie Flower', cursive;
+  cursor: pointer;
+  transition: 1s;
+}
+
+main .tweet-buttons p:hover a {
+  font-size: 40px;
+  transition: 1s;
+}
+
+main .tweet-buttons p:hover {
+  border: 10px solid Transparent;
+  transition: 1s;
+  border-radius: 50px;
+  margin-top: 2px;
+}
+
+main .tweet-buttons p a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  transition: 1s;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Risque');
+$color-white: #FFF;
+
+body {
+	/*background-color: #55ACEE;*/
+	text-align: center;
+	color: $color-white;
+	margin: 0;
+	background: linear-gradient(#55ACEE, #35FFA6);
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+	header {
+		margin-top: 50px;
+		h1 {
+			font-size: 50px;
+			font-family: 'Risque', cursive;
+		}
+	}
+	.box {
+		.quote {
+			font-size: 40px;
+			font-style: italic;
+			font-family: 'Indie Flower', cursive;
+		}
+		.author {
+			font-size: 30px;
+			font-family: 'Indie Flower', cursive;
+		}
+	}
+	.tweet-buttons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		button {
+			background-color: Transparent;
+		    background-repeat:no-repeat;
+		    cursor:pointer;
+		    overflow: hidden;
+		    outline:none;
+			text-align: center;
+			color: $color-white;
+			border: 1px solid $color-white;
+			height: 100px;
+			width: 500px;
+			font-size: 20px;
+			font-family: 'Indie Flower', cursive;
+			transition: 1s;
+			&:hover {
+				font-size: 40px;
+				border: 10px solid Transparent;
+				transition: 1s;
+				border-radius: 50px;
+			}
+		}
+		p {
+			height: 100px;
+			width: 500px;
+			text-align: center;
+			border: 1px solid $color-white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 100px;
+			margin-top: 20px;	
+			font-family: 'Indie Flower', cursive;
+			cursor:pointer;
+			transition: 1s;
+			&:hover a{
+				font-size: 40px;
+				transition: 1s;
+			}
+			&:hover{
+				border: 10px solid Transparent;
+				transition: 1s;
+				border-radius: 50px;
+				margin-top: 2px;	
+			}
+			a {
+				color: $color-white;	
+				text-decoration: none;	
+				font-size: 20px;
+				text-align: center;
+				transition: 1s;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
